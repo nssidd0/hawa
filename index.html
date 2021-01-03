@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cloud Banner || Animation Effect</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="progresbar"></div>
+	<div class="banner">
+		<div class="clouds">
+			<img src="images/cloud1.png" style="--i:1;">
+			<img src="images/cloud2.png" style="--i:1;">
+			<img src="images/cloud3.png" style="--i:1;">
+			<img src="images/cloud4.png" style="--i:1;">
+			<img src="images/cloud5.png" style="--i:1;">
+		</div>
+	</div>
+	<section>
+		<h2>Hawa Mahal</h2>
+		<p><b>When was it built:</b> 1799<br>
+			<b>Who built it:</b> Maharaja Sawai Pratap Singh<br>
+			<b>Where is it located:</b> Jaipur, Rajasthan, India<br>
+			<b>Why was it built:</b> For the royal women to enjoy the events and festivals in the street<br>
+			<b>Architectural Style:</b> Blend of Hindu Rajput architecture and the Islamic Mughal architecture<br>
+			<b>Visit Timing:</b> Daily, 9:30 am to 4:30 pm<br>
+			<b>How to Reach:</b> The city of Jaipur is well-connected with other Indian cities by air, rail and road and also with some international cities by air. The Jaipur International Airport is situated at Sanganer, a southern suburb at a distance of 13 kilometres from Jaipur.<br>
+			Hawa Mahal or the 'Palace Of The Winds' located in the heart of the beautiful Pink City of Jaipur in Rajasthan, India, is one of the most famous tourist attractions and a prominent landmark of the city that is renowned for its rich cultural and architectural history. Built in 1799 by Maharaja Sawai Pratap Singh of the Kachhwaha Rajput dynasty, this beautiful structure is predominantly a high screen wall made of pink and red sandstone that facilitated royal women to get an eyeful of the street festivals and busy city life while remaining out of the view of public. This five-storey building in the shape of a crown of Lord Krishna with 953 jharokhas or windows and a beautifully decorated façade resembling a honeycomb of a beehive that gives one a feel of the rich heritage of the Rajputs.<br><br><br>
+			<b>History & Later Developments</b><br><br>
+			Maharaja Sawai Pratap Singh, grandson of the great Maharaja Sawai Jai Singh who built Jaipur, constructed the Hawa Mahal in 1799. He was so impressed with the Khetri Mahal built by Maharaja Bhopal Singh in the town of Jhunjhunu, Rajasthan that he embarked on constructing the Hawa Mahal that today stands as a remarkable gem of Rajput style of architecture. It was built as an extension of the Royal City Palace and leads to the zenana or women's chambers. One of the main reasons of constructing this beautiful mahal decorated with fine lattice windows and screened balconies was to facilitate the royal Rajput women, who otherwise followed the strict Purdah system and refrained from appearing in public, in  getting a glimpse of the daily events, royal processions and festivals taking place on the streets. This way they could enjoy their sense of freedom while maintaining their customs.<br><br><br>
+			<b>Architecture & Design of Hawa Mahal</b><br><br>
+			The architect of this unique five-storied pyramidal palace with a height of 15 m from its elevated base was Lal Chand Ustad. The design of the building showcases an excellent blend of Hindu Rajput architecture with that of the Islamic Mughal architecture. The former style is palpable from the fluted pillars, floral patterns and domed canopies while the arches and stone inlay filigree work are manifestations of the latter style.<br><br>
+			Keeping in line with other famous landmarks of the city, which is aptly tagged as the ‘Pink City’, this monument was built with red and pink sandstones. Maharaja Sawai Pratap Singh’s devotion towards Lord Krishna is manifested from the design of the structure of the palace that resembles the crown of the Lord. Although not exactly a palace, it looks like one from the street. The façade of the building intricately carved with beautiful motifs is cognate to that of the honeycomb of a beehive. Several potholes of the structure each having small lattice windows, chiselled sandstone grill and decorated domes give the building a look of a mass of semi-octagonal bays. There are a total of 953 elaborately carved jharokhas or windows, some of which are made of wood. These jharokhas were build in such a manner that air circulates naturally through them creating Venturi effect (doctor breeze) thus air conditioning the entire structure during the hot summers. Each jharokha has a small chamber where one can sit and view the street. Fountains at the middle of each chamber complimented well with the light wind flowing through the jharokhas thus enhancing the cooling effect of the chambers.<br><br>
+			The brilliantly conceived design, style and construction of the mahal made it the favourite resort of Maharaja Jai Singh and became famous as his masterpiece. An imperial door from the city palace side leads to the entrance of the Hawa Mahal. Three two-storied buildings enclose a large courtyard on three sides with the Hawa Mahal located on its eastern side. The courtyard presently houses an archaeological museum. The interior of the mahal consisting of chambers as also passages and pillars leading to the top storey is however quite plain and simple compared to the ornamented exterior. The width of the top three storeys is that of a single room while the first two storeys have courtyards. There are no stairs in the building and top storeys can be reached only by ramps.<br><br><br>
+			<b>A Visit to the Hawa Mahal</b><br><br>
+			The Hawa Mahal that attracts national and international tourists visiting Jaipur is located in the southern part of the city on Hawa Mahal Rd, Badi Choupad. It can be visited on all days from 9:30 am to 4:30 pm, however it is best viewed early in the morning when the golden rays of the Sun fall on this royal building giving it a more elegant and gorgeous look. The ancient artefacts preserved in the museum of the mahal give one a glimpse of the rich past, the cultural heritage and the exuberant lifestyle of the Rajputs. One can avail a taxi or book a car to reach the destination. As summers in Rajasthan are too hot, the best time to visit Jaipur is from October to March when the weather of the city becoms pleasant.
+		</p>
+	</section>
+	<h1>
+		<span>N</span>
+		<span>s</span>
+		<span>&nbspS</span>
+		<span>i</span>
+		<span>d</span>
+		<span>d</span>
+	</h1>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script type="text/javascript">
+		$(window).scroll(function(){
+			var scroll = $(window).scrollTop(),
+			dh = $(document).height(),
+			wh = $(window).height();
+			scrollPercent = (scroll / (dh-wh)) * 100;
+			$('#progresbar').css('height', scrollPercent + '%');
+		})
+	</script>
+</body>
+</html>
